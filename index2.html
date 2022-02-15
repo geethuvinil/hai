@@ -1,49 +1,91 @@
 <html>
 <head>
-<title>FORMS</title>
+<title>SIGNUP FORM</title>
+<style>
+input[type=text]{
+width=200%;
+border-radius:5px;
+margin:8px;
+box-sizing:border-box;
+}
+
+input[type=email]{
+width=100%;
+border-radius:5px;
+margin:8px;
+box-sizing:border-box;
+
+}
+input[type=date]{
+width=100%;
+border-radius:5px;
+margin:8px;
+box-sizing:border-box;
+border:2px solid red;
+}
+input[type=number]{
+width=100%;
+border-radius:5px;
+margin:8px;
+box-sizing:border-box;
+border:2px solid red;
+}
+input[type=text]{
+width=100%;
+border-radius:5px;
+margin:8px;
+box-sizing:border-box;
+}
+input[type=button]{
+width=100%;
+border-radius:5px;
+margin:8px;
+box-sizing:border-box;
+background-color:green;
+position:center;
+}
+
+.heading{
+font-size:24;
+background-color:darkblue;
+color:white;
+}
+
+
+
+
+div.relative{
+position:realtive;
+}
+
+.abc{
+
+position:absolute;
+  top:200px;
+  left:400px;
+  right:400px;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color:darkred;
+}
+
+
+</style>
 </head>
+
 <body>
-<table>
-<form>
-<tr><td>
-First name:
-<input type="text" required><br>
-</td>
-</tr>
-<tr><td>
-Last name:
-<input type="text"><br></td>
-</tr>
-<tr><td>
-Password:
-<input type="text" placeholder="enter password"><br></td>
-</tr>
-<tr><td>
-Age:
-<input type="number"><br></td>
-</tr>
-<tr><td>
-Mail id:
-<input type="email">
-<input type="submit"><br></td>
-</tr>
-<tr><td>
-Gender:
-<input type="radio" value="male" name="name">male</td>
-<td><input type="radio" value="female" name="name">female</td>
-</tr>
-<tr><td>
-DOB:
-<input type="date"><br></td>
-</tr>
-<tr><td>URL:
-<input type="url" value="https://www.w3schools.com/html/html_form_input_types.asp"></tr></td>
-<tr><td>Time:
-<input type="time"></tr></td>
+<img src="C:\Users\dhinil\Desktop\students.jpg" width=100% height=100%>
+<div class="relative">
+</div>
+<form class="abc">
+  <h1 class="heading">SIGNUP</h1>
+  <input type="text" placeholder="name"><br>
+  <input type="email"  placeholder="email id"><br>
+  <input type="date" placeholder="mm/dd/yy"><br>
+  <input type="number" placeholder="age"><br>
+  <input type="text" placeholder="password"><br>
+  <input type="button" value="SIGNUP">
 </form>
-</table>
-
-
 </body>
-
 </html>
